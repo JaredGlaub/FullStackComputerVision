@@ -7,7 +7,7 @@ install:
 
 test:
 	python -m pytest -vv --cov=FullStackComputerVisionlib tests/*.py
-	python -m pytest --nbval notebook.ipynb
+	#  python -m pytest --nbval notebook.ipynb
 
 
 lint:
